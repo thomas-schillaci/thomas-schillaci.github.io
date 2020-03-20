@@ -4,4 +4,6 @@
 
 layout: home
 author_profile: true
+header:
+  overlay_image: /assets/images/raid2.jpg
 ---
