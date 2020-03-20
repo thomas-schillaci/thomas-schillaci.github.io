@@ -10,6 +10,8 @@ tags:
   - Keras
   - Learning platform
   - Full stack
+  
+excerpt: In this post, I talk about a three-month internship I took in summer 2019 as an engineering student, where my mission was to help in the development of a learning platform and create Machine Learning courses for it.
 ---
 
 In this post, I talk about a three-month internship I took in summer 2019 as an engineering student, where my mission was to help in the development of a learning platform and create Machine Learning courses for it.

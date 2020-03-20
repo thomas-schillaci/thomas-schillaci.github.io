@@ -98,16 +98,13 @@ analytics:
 author:
   name             : "Thomas Schillaci"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master's student in Computer Science at the Georgia Institute of Technology where I am studying Machine Learning"
+  bio              : "Master's student in Computer Science at the Georgia Institute of Technology"
   location         : "Atlanta, United States"
   email            :
   links:
-    - label: "Email"
+    - label: "thomas.schillaci@gatech.edu"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:thomas.schillaci@gatech.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/thomas-schillaci"
@@ -118,11 +115,22 @@ author:
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/12896974/thomas-schillaci"
 
+
 # Site Footer
 footer:
-#  links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
+  links:
+    - label: " "
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:thomas.schillaci@gatech.edu"
+    - label: " "
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/thomas-schillaci"
+    - label: " "
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/thomas-schillaci"
+    - label: " "
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12896974/thomas-schillaci"
 
 
 # Reading Files
