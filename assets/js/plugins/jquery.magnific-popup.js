@@ -1111,19 +1111,7 @@
   /*>>image*/
   var _imgInterval,
     _getTitle = function(item) {
-      if(item.data && item.data.title !== undefined)
-        return item.data.title;
-
-      var src = mfp.st.image.titleSrc;
-
-      if(src) {
-        if($.isFunction(src)) {
-          return src.call(mfp, item);
-        } else if(item.el) {
-          return item.el.attr(src) || '';
-        }
-      }
-      return '';
+	  return item.el[0].childNodes[3].innerText;
     };
 
   $.magnificPopup.registerModule('image', {
