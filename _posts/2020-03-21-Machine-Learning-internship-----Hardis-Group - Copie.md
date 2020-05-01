@@ -53,6 +53,8 @@ gallery4:
     title: "Photo by <a target=_blank href=https://unsplash.com/@mparzuchowski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText >Michał Parzuchowski</a> on <a target=_blank href=https://unsplash.com>Unsplash</a>"
 ---
 
+{% include toc %}
+
 In this post, I talk about a three-month internship I took in summer 2019 as an engineering student, where my mission was to help in the development of a learning platform and create Machine Learning courses for it.
 
 {% capture fig_img %}

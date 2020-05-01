@@ -24,6 +24,8 @@ gallery:
     title: "VAE 3D latent space visualization"
 ---
 
+{% include toc %}
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 In this post, I present  the  results  from  my  Special Problem – a customized research course – I have taken during my computer science graduate studies at Georgia Tech.
@@ -295,7 +297,7 @@ My implementation was based on OpenAI's [article](https://spinningup.openai.com/
 
 The actor has to decide which action to take based on a state. In this case, the state is the latent vector from the VAE on which is added the vehicle's speed and its steering angle and 
 the action is a new speed and a new steering-angle that will be applied to the car. The network is made of a single hidden layer of 8 relu-activated neurons with an output layer of two 
-linearly-activated neurons. The optimizer is Keras' SGD using a gradient clipping of 0.005 and a learning rate of 0.1.
+linearly-activated neurons. The optimizer is Keras' SGD using a gradient clipping of $$0.005$$ and a learning rate of $$0.1$$.
 
 
 The critic has to predict the Q-value of a state (VAE latent vector + speed + steering angle). It has the same architecture as the actor but outputs a sigmoid-activated neuron. 
