@@ -56,7 +56,7 @@ gallery4:
 In this post, I talk about a three-month internship I took in summer 2019 as an engineering student, where my mission was to help in the development of a learning platform and create Machine Learning courses for it.
 
 {% capture fig_img %}
-![Foo]({{ '/assets/images/christopher-burns-Kj2SaNHG-hg-unsplash.jpg' | relative_url }})
+![Decoration image]({{ '/assets/images/christopher-burns-Kj2SaNHG-hg-unsplash.jpg' | relative_url }})
 {% endcapture %}
 
 <figure>
