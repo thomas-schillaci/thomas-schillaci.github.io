@@ -415,7 +415,7 @@ If you have any question and/or want to look at the code, you can contact me by 
   }
   .reference_li::before {
     margin-left: -30px;
-    margin-right: 10px;
+    margin-right: 6px;
   }
   #first_li::before {
     content: '[1]';
